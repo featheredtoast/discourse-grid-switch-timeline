@@ -4,9 +4,9 @@
 
 .topic-post article {
   grid:
-    "avatar names . ." auto
-    "post-infos . . ." auto
-    "topic-map topic-map topic-map topic-map" auto
-    "cooked cooked cooked post-menu" auto
-    / 50px auto 1fr auto;
+    "names . . . avatar" auto
+    "post-infos . . . ." auto
+    "topic-map topic-map topic-map topic-map topic-map" auto
+    "cooked cooked cooked post-menu post-menu" auto
+    / 50px auto 1fr auto 50px;
 }
