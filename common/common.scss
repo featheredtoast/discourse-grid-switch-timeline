@@ -1,3 +1,12 @@
 .container.posts {
   grid: "timeline posts" 1fr / 250px 1fr;
 }
+
+.topic-post article {
+  grid:
+    "avatar names . ." auto
+    "post-infos . . ." auto
+    "topic-map topic-map topic-map topic-map" auto
+    "cooked cooked cooked post-menu" auto
+    / 50px auto 1fr auto;
+}
